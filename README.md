@@ -1,7 +1,7 @@
 # PixelFire
 3D Video Codec for playing back pre-rendered Voxel Animations in Unity with Volumetric Shaders (WIP)
 
-![screenshot](https://github.com/themindvirus/pixelfire/blob/main/screenshot.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot.png)
 
 # Format
 ```
@@ -18,7 +18,7 @@ X, Y, Z, R, G, B, A //Comment
 X, Y, Z, R, G, B, A //Comment
 ```
 
-![screenshot](https://github.com/themindvirus/pixelfire/blob/main/screenshot1.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot1.png)
 
 # Examples
 #### General
@@ -68,7 +68,8 @@ data = \
 >>> print(data)
 ```
 
-![screenshot](https://github.com/themindvirus/pixelfire/blob/main/screenshot2.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot2.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot3.png)
 
 # Issues
 ```
@@ -98,5 +99,5 @@ data = \
 * Wait for Unity Updates (especially VFX Graph and HDRP WebGL Build Compatibility)
 ```
 
-![screenshot](https://github.com/themindvirus/pixelfire/blob/main/screenshot3.png)
-![screenshot](https://github.com/themindvirus/pixelfire/blob/main/screenshot4.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot4.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot5.png)
