@@ -97,6 +97,7 @@ data = \
  - The Integral Part is the Stage and the Fractional Part is the Value
  - Except Value = 0.0 where Stage -= 1 and Value += 1 (Detected by Stage != PreviousStage + 1)
 * Wait for Unity Updates (especially VFX Graph and HDRP WebGL Build Compatibility)
+* Add more options for Lighting Model e.g. Standard rather than just Off
 ```
 
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot4.png)
