@@ -98,7 +98,7 @@ data = \
 * Wait for Unity Updates (especially VFX Graph and HDRP WebGL Build Compatibility)
 * Add more options for Lighting Model e.g. Standard rather than just Off
 ```
-### *Not many experiments start off with the words, "I've just set fire to a turd."*
+### *Not many experiments start off with the words, "I've just set fire to a turd, now to record it."*
 </br>
 
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot4.png)
