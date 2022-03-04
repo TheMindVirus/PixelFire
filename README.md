@@ -88,7 +88,7 @@ data = \
 # Future Work
 ```
 * Fix the above issues and add Metadata to the codec scripts
-* Reimplement TwoMinusSource as the following:
+* Reimplement OneMinusSource as the following:
  - Data: 0.4, 0.6, 0.5
  - Stage0: 0.4 = 0.4
  - Stage1: 0.4 + (1.0 - 0.4) + 0.6 = 1.6
