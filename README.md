@@ -18,7 +18,7 @@ X, Y, Z, R, G, B, A //Comment
 X, Y, Z, R, G, B, A //Comment
 ```
 
-![screenshot](https://github.com/themindvirus/pixelfire/blob/main/screenshot2.png)
+![screenshot](https://github.com/themindvirus/pixelfire/blob/main/screenshot1.png)
 
 # Examples
 #### General
@@ -67,6 +67,8 @@ data = \
 >>> data[0][6] = 255
 >>> print(data)
 ```
+
+![screenshot](https://github.com/themindvirus/pixelfire/blob/main/screenshot2.png)
 
 # Issues
 ```
