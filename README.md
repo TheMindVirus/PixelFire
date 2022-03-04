@@ -1,9 +1,7 @@
 # PixelFire
 3D Video Codec for playing back pre-rendered Voxel Animations in Unity with Volumetric Shaders (WIP)
 
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot.png)
-
-# Format
+## Format
 ```
 #BEGIN_METADATA //Comment
 #Key: Value //Comment
@@ -18,9 +16,10 @@ X, Y, Z, R, G, B, A //Comment
 X, Y, Z, R, G, B, A //Comment
 ```
 
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot.png)
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot1.png)
 
-# Examples
+## Examples
 #### General
 ```
 [0]
@@ -71,7 +70,7 @@ data = \
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot2.png)
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot3.png)
 
-# Issues
+## Issues
 ```
 * Alpha Channel from PixelFire format ignored due to inaccurate Blending in Unity Shaders
 * PixelFire format is new and currently doesn't encode all of Texture3D's properties e.g. width * height * depth
@@ -86,7 +85,7 @@ data = \
 * Process is not smooth, riddled with errors and is far from automated but the end product is realtime on potato hardware
 ```
 
-# Future Work
+## Future Work
 ```
 * Fix the above issues and add Metadata to the codec scripts
 * Reimplement OneMinusSource as the following:
@@ -99,6 +98,8 @@ data = \
 * Wait for Unity Updates (especially VFX Graph and HDRP WebGL Build Compatibility)
 * Add more options for Lighting Model e.g. Standard rather than just Off
 ```
+### *Not many experiments start off with the words, "I've just set fire to a turd."*
+</br>
 
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot4.png)
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot5.png)
