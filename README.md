@@ -75,6 +75,7 @@ data = \
 * Alpha Channel from PixelFire format ignored due to inaccurate Blending in Unity Shaders
 * PixelFire format is new and currently doesn't encode all of Texture3D's properties e.g. width * height * depth
 * `Blend SrcAlpha OneMinusSrcAlpha` is an invalid but standard Blend Mode for Transparency on Modern GPU's
+* `fragment = (previous + source) * 0.5` is the correct method for blending but is not implemented properly
 * Black Spot at center of world when rendered with surface shader of which vertex shader is badly undocumented
 * Fragments over-rendered due to cubes having 6 sides, 6/12 faces and 8 vertices
 * Origin for ray tracing introduces slight error for correct functionality and requires 3090(Ti) unrolled iterations
