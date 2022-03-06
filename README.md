@@ -84,6 +84,7 @@ data = \
 * LOD and Mipmaps are inaccurate terms to be replaced by Subtexture where a Texture is XYZRGBA Float32
 * Using LOD for storing additional frames of video is scuppered by mipmaps automatically downscaling each frame by x2
 * `tex3D` should be used in all cases instead of `tex3lod` as downscaling wrecks performance
+* Specifying the RenderQueue as 3001 in SubShader Tags fixes Transparency Glitches but is only allowed for HDRP/URP
 * Process is not smooth, riddled with errors and is far from automated but the end product is realtime on potato hardware
 ```
 
