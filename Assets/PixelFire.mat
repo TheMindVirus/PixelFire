@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SurfaceVolume
-  m_Shader: {fileID: 4800000, guid: 5c10c5bc18b0e294cb14ae347bba851c, type: 3}
+  m_Name: PixelFire
+  m_Shader: {fileID: 4800000, guid: bf7a3ff4798043b4db2d90af3787de7a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -56,11 +56,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 11700000, guid: 609fb7b86b9f9da4eaec5f0a8f433411, type: 2}
+        m_Texture: {fileID: 11700000, guid: e270e6de8a1f9b7429999191aba53749, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _A: 1
+    - _B: 0
     - _BumpScale: 1
+    - _C: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -75,7 +78,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Steps: 2000
+    - _Steps: 933.3
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

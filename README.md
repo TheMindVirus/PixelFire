@@ -1,4 +1,4 @@
-# PixelFire
+# PixelFire GLSL Branch
 3D Video Codec for playing back pre-rendered Voxel Animations in Unity with Volumetric Shaders (WIP)
 
 ## Format
@@ -16,59 +16,23 @@ X, Y, Z, R, G, B, A //Comment
 X, Y, Z, R, G, B, A //Comment
 ```
 
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot.png)
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot1.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/glsl/screenshot.png)
 
-## Examples
-#### General
-```
-[0]
-5, 5, 5, 0, 0, 255, 127
-5, 5, 6, 255, 0, 0, 64
+## Warbling
+It was found during development that forgetting to `#include "UnityCG.glslinc"` \
+left things like the camera position and object-local view direction undefined.
 
-[1]
-6, 6, 6, 0, 0, 255, 127
-5, 5, 5, 255, 0, 0, 64
-```
-#### Speed and Size
-```[0]
-0102030000FF7F
-040506FF000040
-```
-#### Flexibility in Python
-```py
-data = \
-"""
-[Frame#]
-"XZYARGB", X, Z, Y, A, R, G, B //Voxel 0
-"XYZRGBA", X, Y, Z, R, G, B, A //Voxel 1
-"""
-```
-#### Compatibility in Python 3.10
-```py
-fmt = ["X", "Y", "Z", "R", "G", "B", "A"]
-data = \
-{
-    0: [ (fmt[:]), ([ 0, 0, 0, 0, 0, 0, 0 ]) ],
-    1: [ (fmt[:]), ([ 0, 0, 0, 0, 0, 0, 0 ]) ],
-}
->>> data[0][1][data[0][0].index("A")] = 255
->>> data[0][1][data[0][0].index("A")]
-```
-#### Ease of Use in Python
-```py
-fmt = "XYZRGBA"
-data = \
-[
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-]
->>> data[0][6] = 255
->>> print(data)
-```
+Adding this include fixed a lot of problems but also produced Warbling artifacts \
+on the camera. This was caused by calling `normalize()` to clamp the direction to 1.0.
 
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot2.png)
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot3.png)
+The issue occurred only when the object-local view direction was being calculated from \
+the Vertex Shader and not the Fragment Shader (where `ObjSpaceViewDir()` needed redefining).
+
+Please see the following Pull Request for more information: \
+https://github.com/TwoTailsGames/Unity-Built-in-Shaders/pull/4
+
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/glsl/screenshot2.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/glsl/screenshot3.png)
 
 ## Issues
 ```
@@ -77,7 +41,7 @@ data = \
 * `Blend SrcAlpha OneMinusSrcAlpha` is an invalid but standard Blend Mode for Transparency on Modern GPU's
 * `fragment = (previous + source) * 0.5` is the correct method for blending but is not implemented properly
 * `alpha = preva + ((1.0 - preva) + srca)` is the correct occlusion model but only if the ray comes from the camera
-* Black Spot at center of world when rendered with surface shader of which vertex shader is badly undocumented
+* Calling `normalize()` after `ObjSpaceViewDir()` from Vertex Shader has Warbling artifacts not present in Fragment Shader
 * Fragments over-rendered due to cubes having 6 sides, 6/12 faces and 8 vertices
 * Origin for ray tracing introduces slight error for correct functionality and requires 3090(Ti) unrolled iterations
 * Starting direction of ray tracing is not always from the camera, is sometimes calculated across direction of normals
