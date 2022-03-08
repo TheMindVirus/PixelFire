@@ -15,6 +15,7 @@
         {
             Blend SrcAlpha OneMinusSrcAlpha
             Cull Front
+            ZWrite Off
 
             GLSLPROGRAM
             #include "UnityCG.glslinc"
