@@ -1,8 +1,8 @@
 # PixelFire - WebGL (Experimental)
 3D Video Codec for playing back pre-rendered Voxel Animations in the Web Browser with Volumetric Shaders (WIP)
 
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot.png)
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot1.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/webgl/volumetric.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/webgl/pixelfiremoddev.png)
 
 ## Issues
 ```
