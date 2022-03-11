@@ -8,6 +8,9 @@
 * FireDeck - Texture3D Animation Playback script with Live Editor Scrubbing
 ```
 
+PixelFire files can take any file extension e.g. .txt is used to open it in Notepad, text/pixelfire for MIME \
+and PixelFire Transcode (.pft) formerly belonged to a scientific word processor for MS-DOS called ChiWriter.
+
 ### Usage
 ```
 * To start, write your own version of PixelFire.txt in your favourite text editor (stick carefully to the format)
