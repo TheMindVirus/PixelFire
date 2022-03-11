@@ -8,14 +8,14 @@
     }
     SubShader
     {
-        Tags { "Queue" = "Transparent+1" "RenderType" = "Transparent" "LightMode" = "Always" }
-        Blend SrcAlpha OneMinusSrcAlpha
-        Cull Front
-        ZWrite Off
-        ZTest LEqual //NotEqual
-
         Pass
         {
+            Tags { "Queue" = "AlphaTest" "RenderType" = "Transparent" "LightMode" = "Always" }
+            Blend SrcAlpha OneMinusSrcAlpha
+            Cull Front
+            ZWrite Off
+            ZTest LEqual //NotEqual
+
             CGPROGRAM
             #pragma target 4.0
             #pragma vertex vertex_shader
@@ -72,8 +72,10 @@
                     float4 source = tex3Dlod(_Texture, float4(position.x, position.y, position.z, _Frame));
                     if (i == 0) { previous = source; }
                     //output = (previous + source) * 0.5f;
-                    output.rgb = (source.rgb * source.a) + (1.0f - source.a) * (output.rgb);
-                    output.a = (source.a) + (1.0f - source.a) * output.a;
+                    //output.rgb = (source.rgb * 0.5f) + (1.0f - source.a) * (output.rgb);
+                    //output.a = (source.a * 0.5f) + (1.0f - source.a) * output.a;
+                    output.rgb = (output.rgb * (1.0f - source.a)) + (source.rgb * source.a);
+                    output.a = (source.a * (source.a)) - ((1.0f - source.a) * output.a);
                     previous = source;
                 }
                 return output;
