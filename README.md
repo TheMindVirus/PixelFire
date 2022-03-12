@@ -3,7 +3,7 @@
 
 ### New Features
 ```
-* Updated Volumetric Shaders - Now Appears in Play Mode (still no forward lighting though...)
+* Updated Volumetric Shaders - Now Appears in Play Mode (still no proper forward lighting though, please see UnitySHlighting.shader)
 * PixelFireMod.cs - Modded PixelFire to Texture3D Conversion Script to make a Texture3D per detected frame
 * FireDeck - Texture3D Animation Playback script with Live Editor Scrubbing
 ```
