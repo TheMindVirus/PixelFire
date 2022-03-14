@@ -27,6 +27,6 @@
 * Test export to .FBX and see if the animation correctly imports into unity
 ```
 ### *Not many experiments start off with the words, "I've just set fire to a turd, now to record it."*
-#### *![PFChangs.py](https://github.com/TheMindVirus/PixelFire/blob/blender/PFChangs.py), anyone?*
+#### *[PFChangs.py](https://github.com/TheMindVirus/PixelFire/blob/blender/PFChangs.py), anyone?*
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot4.png)
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot5.png)
