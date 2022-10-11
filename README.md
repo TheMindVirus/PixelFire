@@ -14,4 +14,7 @@ The float3x4 transform that describes particle properties is laid out in the fol
 
 ![screenshot3](https://github.com/TheMindVirus/PixelFire/blob/swarm/screenshot3.png)
 
-*The running joke is that swarm stands for sw-arm as in software that runs on arm processors. It's that backwards.*
+***
+
+*The running joke is that swarm stands for sw-arm as in software that runs on arm processors. It's that backwards.* \
+*It'<ins>**S**</ins> also fairly <ins>**WARM**</ins> in here...*
