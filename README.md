@@ -7,7 +7,7 @@ There are settings to tweak (e.g. half4 instead of float4) for compatibility wit
 
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/swarm/screenshot.png)
 
-The float3x4 transform that describes particle properties is laid out in the following way:
+The float3x4 transform that describes particle properties is laid out in the following unusual way:
 ![screenshot2](https://github.com/TheMindVirus/PixelFire/blob/swarm/screenshot2.png)
 
 ### Please Note: This builds for WebGL but IL2CPP does not support Mesh GPU Instancing in WebGL Builds.
