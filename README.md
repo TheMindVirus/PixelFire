@@ -1,5 +1,5 @@
 # PixelFire - Swarm Engine
-3D Volumetric Mesh Particle System in Unity
+### 3D Volumetric Mesh Particle System in Unity
 
 Swarm Engine focusses on Games and light animations based on 3D Particle Systems \
 where each particle is allowed to draw its own 8x8x8 Volumetric Grid with Alpha in Real-Time. \
