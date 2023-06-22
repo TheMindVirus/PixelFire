@@ -8,4 +8,3 @@
 
 ![screenshot](https://github.com/themindvirus/pixelfire/blob/cham/screenshot.png)
 ![screenshot](https://github.com/themindvirus/pixelfire/blob/cham/screenshot2.png)
-![screenshot](https://github.com/themindvirus/pixelfire/blob/cham/screenshot3.png)
