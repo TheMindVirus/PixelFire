@@ -1,10 +1,7 @@
-# PixelFire Cham.
+# PixelFire 'fract
 
-![screenshot](https://github.com/themindvirus/pixelfire/blob/cham/cham.png)
+### Path Traced Cycles (or variated OptiX)
+![screenshot](https://github.com/themindvirus/pixelfire/blob/fract/screenshot1.png)
 
-**Project Source Pending...**
-
-![screenshot](https://github.com/themindvirus/pixelfire/blob/cham/chamallow.png)
-
-![screenshot](https://github.com/themindvirus/pixelfire/blob/cham/screenshot.png)
-![screenshot](https://github.com/themindvirus/pixelfire/blob/cham/screenshot2.png)
+### Rasterised EEVEE (Identical Settings)
+![screenshot](https://github.com/themindvirus/pixelfire/blob/fract/screenshot2.png)
