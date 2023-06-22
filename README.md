@@ -1,7 +1,8 @@
-# PixelFire Cham.
+# PixelFire Alpha
 
-![screenshot](https://github.com/themindvirus/pixelfire/blob/cham/cham.png)
+An approximation of the volumetric blend function and each segment's layer alpha depth
 
-**Project Source Pending...**
-
-![screenshot](https://github.com/themindvirus/pixelfire/blob/cham/chamallow.png)
+![screenshot](https://github.com/themindvirus/pixelfire/blob/alpha/screenshot.png)
+![screenshot](https://github.com/themindvirus/pixelfire/blob/alpha/screenshot2.png)
+![screenshot](https://github.com/themindvirus/pixelfire/blob/alpha/screenshot3.png)
+![screenshot](https://github.com/themindvirus/pixelfire/blob/alpha/screenshot4.png)
