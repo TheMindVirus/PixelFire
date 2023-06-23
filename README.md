@@ -7,3 +7,6 @@
 ![image](https://github.com/themindvirus/pixelfire/blob/sorb/rednose.png)
 
 ![screenshot](https://github.com/themindvirus/pixelfire/blob/sorb/materialremap-beckmannglitch.png)
+
+![screenshot](https://github.com/themindvirus/pixelfire/blob/sorb/uv-editing.png)
+![screenshot](https://github.com/themindvirus/pixelfire/blob/sorb/linear-remap.png)
