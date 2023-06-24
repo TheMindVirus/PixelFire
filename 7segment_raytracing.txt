@@ -1,0 +1,37 @@
+[7segment_raytracing]
+!!! PRELIMINARY DISPLAY/RENDER/LIGHTING SPECIFICATION FOR VIRTUAL PRODUCTION !!!
+pare/luce/sore/aoce
+flex/sorb/posh/emit
+
+[current_renderer]
+parent - powerful light/matter - AM (amplitude modulation) [transparent] {emissive-hdr} - usually projected emissively or incident
+lucent - luminous light/matter - RM (recurring modulation) [translucent] {transmissive} - internally reflected density distribution
+sorent - absorbed light/matter - FM (frequency modulation) [opaque-null] {albedo-solid} - standard texture or material occlusion
+aocent - occluded light/matter - HM (heuristic modulation) [dark-ignore] {textured-odd} - shadowed darkened granular randomness
+
+[physical_principles]
+transit - no change to the direction of light ({"normal"} -> "delta-angle")
+scatter - spin perpendicularly or otherwise to the direction of light ({"tangent"} -> "delta-angle")
+reflect - exactly oppose the direction of light ({"metallic"} -> "delta-angle")
+neglect - completely ignore the direction of light ({"smoothness"} -> "delta-angle")
+
+[standard_materials]
+pare - transit parent light, transit lucent light, transit sorent light, transit aocent light (invisible)
+luce - scatter parent light, scatter lucent light, scatter sorent light, scatter aocent light (crystal)
+sore - reflect parent light, reflect lucent light, reflect sorent light, reflect aocent light (solid)
+aoce - neglect parent light, neglect lucent light, neglect sorent light, neglect aocent light (null)
+
+[characteristic_materials]
+flex - reflect parent light, scatter lucent light, transit sorent light, neglect aocent light (matte-canvas)
+sorb - neglect parent light, transit lucent light, scatter sorent light, reflect aocent light (refractive-plexiglass)
+posh - scatter parent light, reflect lucent light, neglect sorent light, transit aocent light (polished-crystalline)
+emit - transit parent light, neglect lucent light, reflect sorent light, scatter aocent light (neon-tube)
+
+[product_brief]
+e.g. An ultrawide stage-scale curved projection display wall with liquid crystal alpha channel
+     for live cinematic e-sports with toggled visibility of the staging behind the main screen
+     using the auxiliary DVI output on the back of a projector with hardware mapper-framebuffer
+     externally projection mapped, liquid crystals controlled physically by video alpha channel
+     with flex->sorb (1.0->0.0) and opaq characteristics to block projected light from players' eyes
+     (optional: posh mirror pixels as -1.0 alpha, labels compatible with quad alpha-numeric LED readouts)
+     
