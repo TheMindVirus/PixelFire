@@ -4,9 +4,11 @@ Shader "PixelFire/Ferrofluid"
     {
         _Color("Color", Color) = (1.0, 1.0, 1.0, 0.3)
         _Steps("Steps", Float) = 512
+        _DebugSize("Size", Float) = 2.00
         _DebugPhase("Phase", Float) = 8.00
         _DebugScale("Scale", Float) = 0.03
         _DebugNormal("Normal", Vector) = (0.0, 0.0, 0.0, 0.0)
+        [Toggle] _ToggleClippingFault("Clipping Fault", Int) = 1
     }
     SubShader
     {
@@ -22,9 +24,11 @@ Shader "PixelFire/Ferrofluid"
 
         fixed4 _Color;
         int _Steps;
+        fixed _DebugSize;
         fixed _DebugPhase;
         fixed _DebugScale;
         fixed4 _DebugNormal;
+        bool _ToggleClippingFault;
 
         struct Input { fixed3 viewDir; fixed3 pixel; fixed3 normal; };
 
@@ -36,7 +40,7 @@ Shader "PixelFire/Ferrofluid"
         void vertex(inout appdata_full input, out Input output)
         {
             UNITY_INITIALIZE_OUTPUT(Input, output);
-            output.pixel = input.vertex.xyz;
+            output.pixel = mul(UNITY_MATRIX_M, input.vertex.xyz); //???
             output.normal = input.normal;
         }
 
@@ -55,9 +59,12 @@ Shader "PixelFire/Ferrofluid"
             for (uint i = 0; i < steps; ++i)
             {
                 fixed3 pos = origin + (direction * (i * stride));
-                if (pos.x < 0.0 || pos.x > 1.0
-                ||  pos.y < 0.0 || pos.y > 1.0
-                ||  pos.z < 0.0 || pos.z > 1.0) { break; }
+                if (!_ToggleClippingFault)
+                {
+                    if (pos.x < 0.0 || pos.x > 1.0
+                    ||  pos.y < 0.0 || pos.y > 1.0
+                    ||  pos.z < 0.0 || pos.z > 1.0) { break; }
+                }
 
                 bool skip = false;
 
@@ -69,7 +76,7 @@ Shader "PixelFire/Ferrofluid"
                 fixed v = s * _DebugScale;
                 fixed n = (ONE_EIGHTH * s) + _DebugNormal.xyz;
                 fixed lhs = (o.x * o.x) + (o.y * o.y) + (o.z * o.z);
-                fixed rhs = (ONE_THIRD + v);
+                fixed rhs = (ONE_THIRD + v) * _DebugSize;
                 rhs *= rhs;
                 fixed eq = lhs - rhs;
                 bool b = (eq > 0.0);
