@@ -1,3 +1,3 @@
 # PixelFire globe
 
-![screenshot](/blob/globe/screenshot.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/globe/screenshot.png)
