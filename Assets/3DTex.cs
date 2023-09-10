@@ -1,6 +1,8 @@
 using UnityEditor;
 using UnityEngine;
 
+#if UNITY_EDITOR
+
 public class ExampleEditorScript : MonoBehaviour
 {
     [MenuItem("CreateExamples/3DTexture")]
@@ -44,3 +46,5 @@ public class ExampleEditorScript : MonoBehaviour
         AssetDatabase.CreateAsset(texture, "Assets/Example3DTexture.asset");
     }
 }
+
+#endif

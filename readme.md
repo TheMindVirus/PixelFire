@@ -1,3 +1,16 @@
 # PixelFire globe
 
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/globe/screenshot.png)
+![img0](https://github.com/TheMindVirus/PixelFire/blob/globe/Core/img0.png)
+![img1](https://github.com/TheMindVirus/PixelFire/blob/globe/Core/img1.png)
+![img2](https://github.com/TheMindVirus/PixelFire/blob/globe/Core/img2.png)
+![img3](https://github.com/TheMindVirus/PixelFire/blob/globe/Core/img3.png)
+![img4](https://github.com/TheMindVirus/PixelFire/blob/globe/Core/img4.png)
+![img5](https://github.com/TheMindVirus/PixelFire/blob/globe/Core/img5.png)
+![img6](https://github.com/TheMindVirus/PixelFire/blob/globe/Core/img6.png)
+![dev0](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev0.png)
+![dev1](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev1.png)
+![dev2](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev2.png)
+![dev3](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev3.png)
+![dev4](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev4.png)
+![dev5](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev5.png)
