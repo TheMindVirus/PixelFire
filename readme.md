@@ -15,3 +15,6 @@
 ![dev4](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev4.png)
 ![dev5](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev5.png)
 ![dev6](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev6.png)
+![dev7](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev7.png)
+![dev8](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev8.png)
+![dev9](https://github.com/TheMindVirus/PixelFire/blob/globe/Dev/dev9.png)
