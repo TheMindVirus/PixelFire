@@ -12,6 +12,6 @@ multimc-oc2 /* tcc */ /* gets truncated to 8 letter filenames on fdisk->mkdosfs-
 
 !!! WARNING !!!
 The binaries provided in this source tree are generated for Componentry Kit Builds.
-The intended usage of these binaries are for use with binary inspection tools.
+The intended usecase of these binaries is for use with binary inspection tools.
 Please do not run the executables on the native platform except for tests.
 ```
