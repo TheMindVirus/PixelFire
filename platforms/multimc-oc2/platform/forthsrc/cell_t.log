@@ -1,0 +1,36 @@
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_cglue.c:22:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_clib.c:28:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_core.c:39:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_inner.c:32:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_io.c:24:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_io_no.c:24:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_main.c:34:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_mem.c:26:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_text.c:28:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_words.c:25:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pfcompil.c:27:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pfcustom.c:32:
+In file included from /media/diskc/platform/oc2-tcc/../../csrc/pf_all.h:51:
+/media/diskc/platform/oc2-tcc/../../csrc/pforth.h:34: error: ';' expected (got "cell_t")
+tcc: error: file 'pf_cglue.o' not found

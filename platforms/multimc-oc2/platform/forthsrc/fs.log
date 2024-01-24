@@ -1,0 +1,35 @@
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_cglue.c:22:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_clib.c:28:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_core.c:39:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_inner.c:32:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_io.c:24:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_io_no.c:24:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+/media/diskc/platform/forthsrc/../../csrc/pf_main.c:69: error: 'NULL' undeclared
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_mem.c:26:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_text.c:28:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_words.c:25:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+In file included from /media/diskc/platform/forthsrc/../../csrc/pfcompil.c:27:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+In file included from /media/diskc/platform/forthsrc/../../csrc/pfcustom.c:32:
+In file included from /media/diskc/platform/forthsrc/../../csrc/pf_all.h:53:
+/media/diskc/platform/forthsrc/../../csrc/pf_io.h:128: error: ';' expected (got "FileStream")
+tcc: error: file 'pf_cglue.o' not found
