@@ -1,3 +1,4 @@
+[build_targets]
 arduino-avr-gcc
 linux-crossbuild-amiga
 linux-crossbuild-atari
