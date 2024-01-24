@@ -1,1 +1,19 @@
+* 1227 idents, 2002 lines, 61901 bytes
+* 0.329 s, 6085 lines/s, 0.2 MB/s
+* text 200, data.rw 0, data.ro 0, bss 0 bytes
+* 1237 idents, 2179 lines, 65360 bytes
+* 0.353 s, 6172 lines/s, 0.2 MB/s
+* text 804, data.rw 0, data.ro 0, bss 0 bytes
+* 1227 idents, 1993 lines, 61287 bytes
+* 0.325 s, 6132 lines/s, 0.2 MB/s
+* text 0, data.rw 0, data.ro 0, bss 0 bytes
+* 1228 idents, 2304 lines, 70118 bytes
+* 0.332 s, 6939 lines/s, 0.2 MB/s
+* text 0, data.rw 0, data.ro 0, bss 4 bytes
+* 1239 idents, 2059 lines, 63784 bytes
+* 0.352 s, 5849 lines/s, 0.2 MB/s
+* text 384, data.rw 16, data.ro 55, bss 0 bytes
+* 482 idents, 331 lines, 10709 bytes
+* 0.123 s, 2691 lines/s, 0.1 MB/s
+* text 396, data.rw 0, data.ro 0, bss 0 bytes
 Done!
