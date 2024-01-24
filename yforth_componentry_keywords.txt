@@ -1,0 +1,85 @@
+[block]
+block, buffer, flush, load, save-buffers, update
+
+[block_extension]
+empty-buffers, list, thru
+
+[core]
+in, source-id, tib, input-buffer, in-input-buffer, base,
+dp, error, last, state, counted-string, hold, pad, address-unit-bits,
+core, core-ext, floored, max-char, max-d, max-n, max-u, max-ud, return-stack-cells,
+stack-cells, double, double-ext, floating, floating-stack, max-float, floating-ext,
+memory-alloc, memory-alloc-ext, search-order, wordlists, search-order-ext, tools, tools-ext,
+locals, locals-ext, facility, facility-ext, block, block-ext, exception, exception-ext,
+file, file-ext, string, string-ext, check-system,
+mod, drop, dup, over, swap, abs, align, aligned, and, bl, c, cell, cells, char, chars,
+depth, drop, fm, invert, lshift, m, max, min, mod, negate, or, over, r, rot, rshift,
+s, sm, rem, swa, u, um, xor, word, number, interpret, accept, source, evaluate, quit,
+allot, here, exit, variable, constant, create, does, if, then, else, begin, do, loop,
+i, j, loop, recurse, find, hold, cr, emit, space, spaces, type,
+body, abort, count, decimal, environment, execute, fill, immediate, key, leave, literal,
+move, postpone, sign, unloop, while, repeat, does, compile, doCol, branch, doLit, doFLit,
+doExit, doValue, view-error-message, read-const
+
+[core_extension]
+pad, source-id, noname, do, again, c, compile, erase, false, hex, marker, nip, parse,
+pick, refill, restore-input, roll, save-input, true, tuck, u, unused, within, (immediate),
+value, to
+
+[double]
+constant, literal, variable, d, d0, d2, dabs, dmax, dnegate, m
+
+[double_extension]
+rot, du
+
+[exceptio(n)]
+catch, throw
+
+[facility]
+at-xy, key, page
+
+[file]
+bin, close-file, create-file, delete-file, file-position, file-size, include-file,
+included, open-file, ro, rw, read-file, read-line, reposition-file, resize-file,
+wo, write-file, write-line
+
+[file_extension]
+file-status, flush-file, rename-file
+
+[float]
+float, d, f, falign, faligned, fconstant, fdepth, fdrop, fdup, fliteral, float, floats,
+floor, fmax, fmin, fnegate, fover, frot, fround, fswap, fvariable, represent
+
+[float_extension]
+df, dfalign, dfaligned, dfloat, dfloats, f, fabs, facos, facosh, falog, fasin, fasinh,
+fatan, fatan2, fatanh, fcos, fcosh, fe, fexp, fexpm1, fln, flnp1, flog, fs, fsin, fsincos, fsinh,
+fsqrt, ftan, ftanh, f, precision, set-precision, sf, sfalign, sfaligned, sfloat, sfloats
+
+[locals]
+local, bp, rLocal, wLocal
+
+[locals_extension]
+locals
+
+[mem(ory)all]
+allocate, free, resize
+
+[search]
+definitions, forth-wordlist, get-current, get-order, search-wordlist, set-current, set-order, wordlist
+
+[search_extension]
+also, forth, only, order, previous
+
+[string]
+trailing, string, blank, cmove, compare, search, sliteral
+
+[tools]
+s, dump, see, words
+
+[tools_extension]
+ahead, bye, cs-pick, cs-roll, else, if, then, (immediate)
+
+[(y)core]
+ver, save-image, system
+
+This list is incomplete. A more complete source was found at: http://archive.raspbian.org/raspbian/pool/main/y/yforth/
