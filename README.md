@@ -4,7 +4,7 @@
 ![baymax](https://github.com/TheMindVirus/PixelFire/blob/chubb/baymax.png)
 
 ### michelin man
-![michelin](https://github.com/TheMindVirus/PixelFire/blob/chubb/michenlin.png)
+![michelin](https://github.com/TheMindVirus/PixelFire/blob/chubb/michelin.png)
 
 ### liquid motion keyfob
 ![keyfob](https://github.com/TheMindVirus/PixelFire/blob/chubb/keyfob.png)
