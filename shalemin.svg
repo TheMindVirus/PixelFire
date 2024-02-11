@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%;">
+<rect width="100%" height="100%" fill="#79F"></rect>
+<g id="shalemin" fill="none" stroke="#FFF" stroke-linejoin="round" stroke-linecap="round">  
+  <path d="m  455 295 l 0.001 0.001 m 170 0 l 0.001 0.001 m 675 0 l 0.001 0.001 m 170 0 l 0.001 0.001" stroke-width="18"></path>
+  <path d="m  505 305 l 70 0 m 775 0 l 70 0" stroke-width="12"></path>
+  <path d="m  655 285 s 0 15 30 15 m 0 0 s 20 0 20 -20 m 0 0 s 0 -15 -25 -15 m 0 0 s -25 0 -25 -15 m 0 0 s 0 -20 25 -20 m 0 0 s 20 0 25 10" stroke-width="12"></path>
+  <path d="m  735 195 l 0 100 m 0 -30 s 0 -35 35 -35 m 0 0 s 35 0 35 35 m 0 0 l 0 30" stroke-width="12"></path>
+  <path d="m  900 300 l 0 -35 s 0 35 -35 35 m 0 0 s -35 0 -35 -35 m 0 0 s 0 -35 35 -35 m 0 0 s 35 0 35 35 m 0 0" stroke-width="12"></path>
+  <path d="m  930 195 l 0 105" stroke-width="12"></path>
+  <path d="m  955 265 l 70 0 s 0 -35 -35 -35 m 0 0 s -35 0 -35 35 m 0 0 s 0 35 35 35 m 0 0 s 15 0 30 -10" stroke-width="12"></path>
+  <path d="m 1050 230 l 0 70 l 0 -45 s 0 -25 25 -25 m 0 0 s 25 0 25 25 m 0 45 l 0 -45 s 0 -25 25 -25 m 0 0 s 25 0 25 25 l 0 45" stroke-width="12"></path>  
+  <path d="m 1175 300 l 0 -50" stroke-width="12"></path><path d="m 1175 220 l 0.001 0.001" stroke-width="18"></path>
+  <path d="m 1200 230 l 0  70 m 0 -35 s 0 -35 35 -35 m 0 0 s 35 0 35 35 m 0 0 l 0 35" stroke-width="12"></path>
+</g>  
+<text x="520" y="700" font-size="350" fill="#FFF">&#x1F30C;&#x1F3E2;</text>
+</svg>
