@@ -1,0 +1,68 @@
+<title>Budamilk</title>
+<link rel="icon" href="favicon.ico"></link>
+<style>
+ * { box-sizing: border-box; margin: auto; font-family: sans-serif; overflow: hidden; }
+ #play { background: yellow; position: fixed; top: 0; left: 0; width: 100%; height: 100%; color: black; font-size: 100pt; border: none; }
+ #video { background: black; position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
+<script>
+video = null;
+sources = null;
+source = null;
+track = null;
+oncuevideo = function(event, element) { element.remove(); video = document.getElementById("video"); sources = video.getElementsByTagName("source"); video.onplay = oncueplay; video.onended = oncuenext; video.play(); }
+oncuetrack = function(event) { var textTrack = document.getElementById(event); if (textTrack != null) { var found = false; for (var i = 0; i < video.textTracks.length; ++i) { if (textTrack.id == video.textTracks[i].id) { found = true; track = i; video.textTracks[i].mode = "showing"; break; } if (!found) { track = null; } } } }
+oncueplay = function(event) { if (source == null) { source = 0; } for (var i = 0; i < video.textTracks.length; ++i) { video.textTracks[i].mode = "hidden"; } if (sources[source].hasAttribute("track")) { oncuetrack(sources[source].getAttribute("track")); } }
+oncuenext = function(event) { source = (source + 1) % sources.length; video.src = sources[source].src; video.play(); }
+</script>
+<video    id="video"           autoplay captions>
+  <source id="source_intro"    src="budamilk_intro.mp4"></source>
+  <source id="source_contents" src="contents.mp4"                                track="track_index"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_00_segue"></source>
+  <source id="source_00"       src="00_Engineering/00_Engineering.mp4"           track="track_00"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_01_segue"></source>
+  <source id="source_01"       src="01_Environment/01_Environment.mp4"           track="track_01"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_02_segue"></source>
+  <source id="source_02"       src="02_Technology/02_Technology.mp4"             track="track_02"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_03_segue"></source>
+  <source id="source_03"       src="03_Medicine/03_Medicine.mp4"                 track="track_03"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_04_segue"></source>
+  <source id="source_04"       src="04_Chemistry/04_Chemistry.mp4"               track="track_04"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_05_segue"></source>
+  <source id="source_05"       src="05_Mathematics/05_Mathematics.mp4"           track="track_05"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_06_segue"></source>
+  <source id="source_06"       src="06_Astronomy/06_Astronomy.mp4"               track="track_06"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_07_segue"></source>
+  <source id="source_07"       src="07_Communication/07_Communication.mp4"       track="track_07"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_08_segue"></source>
+  <source id="source_08"       src="08_Women_in_Science/08_Women_in_Science.mp4" track="track_08"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_09_segue"></source>
+  <source id="source_09"       src="09_Computing/09_Computing.mp4"               track="track_09"></source>
+  <source id="source_intro"    src="budamilk_intro.mp4"                          track="track_10_segue"></source>
+  <source id="source_10"       src="10_Art_and_Science/10_Art_and_Science.mp4"   track="track_10"></source>
+  <source id="source_outro"    src="budamilk_outro.mp4"></source>
+  <track  id="track_index"     src="index.vtt" default></track>
+  <track  id="track_00"        src="00_Engineering/00_Engineering.vtt"></track>
+  <track  id="track_01"        src="01_Environment/01_Environment.vtt"></track>
+  <track  id="track_02"        src="02_Technology/02_Technology.vtt"></track>
+  <track  id="track_03"        src="03_Medicine/03_Medicine.vtt"></track>
+  <track  id="track_04"        src="04_Chemistry/04_Chemistry.vtt"></track>
+  <track  id="track_05"        src="05_Mathematics/05_Mathematics.vtt"></track>
+  <track  id="track_06"        src="06_Astronomy/06_Astronomy.vtt"></track>
+  <track  id="track_07"        src="07_Communication/07_Communication.vtt"></track>
+  <track  id="track_08"        src="08_Women_in_Science/08_Women_in_Science.vtt"></track>
+  <track  id="track_09"        src="09_Computing/09_Computing.vtt"></track>
+  <track  id="track_10"        src="10_Art_and_Science/10_Art_and_Science.vtt"></track>
+  <track  id="track_00_segue"  src="00_Engineering/00_Segue.vtt"></track>
+  <track  id="track_01_segue"  src="01_Environment/01_Segue.vtt"></track>
+  <track  id="track_02_segue"  src="02_Technology/02_Segue.vtt"></track>
+  <track  id="track_03_segue"  src="03_Medicine/03_Segue.vtt"></track>
+  <track  id="track_04_segue"  src="04_Chemistry/04_Segue.vtt"></track>
+  <track  id="track_05_segue"  src="05_Mathematics/05_Segue.vtt"></track>
+  <track  id="track_06_segue"  src="06_Astronomy/06_Segue.vtt"></track>
+  <track  id="track_07_segue"  src="07_Communication/07_Segue.vtt"></track>
+  <track  id="track_08_segue"  src="08_Women_in_Science/08_Segue.vtt"></track>
+  <track  id="track_09_segue"  src="09_Computing/09_Segue.vtt"></track>
+  <track  id="track_10_segue"  src="10_Art_and_Science/10_Segue.vtt"></track>
+</video>
+<button id="play" onclick="oncuevideo(event, this)">Play</button>

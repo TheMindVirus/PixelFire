@@ -1,0 +1,216 @@
+[Budamilk Media Modulo]
+[London Science Museum]
+
+[00_Engineering]
+[00]: Marvellous Machines: Early Robots
+[01]: A History of Women in Engineering
+[02]: Medicine and Engineering
+[03]: Artists and Engineers
+[04]: Modelling and Prototyping
+[05]: Let's Stick Together: A History of Permanent Magnets
+[06]: Why, Robot?
+[07]: Friend or Foe? Robots in Popular Culture
+[08]: Engineering Highlights from the Collection
+[09]: Engineering from the Blog
+[10]: Engineers
+[11]: Great Object Hunt: Design & Engineering
+
+[01_Environment]
+[00]: Can Carbon Capture Technology help address the Climate Crisis?
+[01]: Climate Change in the Arctic: How Global Heating affects Sami Communities
+[02]: Hot Topic: Discovering the Greenhouse Effect
+[03]: How Satellites help us understand Climate Change
+[04]: Greener Railways: Rail Transport and the Climate Emergency
+[05]: The Green Corridor: Railways and the Landscape
+[06]: Slums and Suburbs: Water and Sanitation in the First Industrial City
+[07]: Manchester's Smoke Nuisance: Air Pollution in the Industrial City
+[08]: Changing Landscapes: Art about the Environment
+[09]: Green Chemistry: Cleaning up the Chemical Industry
+[10]: Sustainable Building: Old Traditions, New Technology
+[11]: Fighting Electronic Waste: How Polaroid made it into the 21st Century
+[12]: Let's Get Sustainable. Period.
+[13]: Environmental Science and Technology
+[14]: Exploring the Deep Sea Floor
+[15]: Climate and the Collection
+[16]: Driving into the Future
+
+[02_Technology]
+[00]: A Brief History of Stuff
+[01]: Typewriters and Assistive Technology for Blind and Partially Sighted People
+[02]: Building the Modern World: Concrete and our Environment
+[03]: Romans to Raves: A History of Roads and Motorways
+[04]: Flushed Away: Sewers through History
+[05]: Think Small: Models, Makers and Technology
+[06]: Home Cooking: From Victorian Tech to Kenwood Chef
+[07]: A Brief History of DIY from the Shed to the Maker Movement
+[08]: Teasmades: From Clockwork Cuppas to the Smart Home
+[09]: Electrifying: The Story of Lighting our Homes
+[10]: The Invention of the Vacuum Cleaner, from Horse-Drawn to High Tech
+[11]: Domestic Appliances
+[12]: Electricity Supply
+[13]: Lighting
+[14]: The First Digital Photos, from Victorian Technology to the Internet
+[15]: The Time-Travelling Camera: A Short History of Digital Photo Manipulation
+[16]: Ways of Catching a Spark: A History of Fire-Making Methods
+[17]: Feeding Time
+[18]: A Flushing Story
+
+[03_Medicine]
+[00]: Blood
+[01]: The Iron Lung
+[02]: Polio: A 20th Century Epidemic
+[03]: Bubonic Plague: The First Pandemic
+[04]: Smallpox and the Story of Vaccination
+[05]: The History of Syphilis Part One: Cause and Symptoms
+[06]: The History of Syphilis Part Two: Treatments, Cures and Legislation
+[07]: Understanding Bodily Functions
+[08]: Diagnosis: Understanding Illness
+[09]: What is Scientific Medicine?
+[10]: Clinical Trials and Medical Experiments
+[11]: The Microscope
+[12]: Visualising the Body
+[13]: Medicine in the Warzone
+[14]: Treating the Wounded in Wartime
+[15]: Sickness in the Ranks
+[16]: Medicine in the Aftermath of the War
+[17]: Revolutionary Hospital Medicine
+[18]: Who Pays for Hospitals?
+[19]: Hospital Infection
+[20]: The Problem of Blood Loss
+[21]: The Art of Anaesthesia
+[22]: Joseph Lister's Antisepsis System
+[23]: Surgeons and Surgical Spaces
+[24]: A Victorian Mental Asylum
+[25]: From Nerves to Neuroses
+[26]: 'Heroic Therapies' in Psychiatry
+[27]: Thalidomide
+[28]: Materia Medica and Pharmacology
+[29]: Cholera in Victorian London
+[30]: Epidemology: The Public Health Science
+[31]: Smoking: Advertising the Facts
+[32]: The Health of the Nation
+[33]: Dangerous Trades
+[34]: How was Penicillin Developed?
+[35]: Alternatives to Antibiotics
+[36]: What is Antibiotic Resistance?
+[37]: Preventing Infection: Lessons from the Past
+
+[04_Chemistry]
+[00]: X-Ray Crystallography: Revealing our Molecular World
+[01]: Food: A Chemical History
+[02]: Glassware: The Protagonist of the Laboratory
+[03]: The Age of Plastic: From Parkesine to Pollution
+[04]: Something in the Air: James Lovelock and Atmospheric Pollution
+[05]: Playing with Science: A Brief History of the Chemistry Set
+[06]: The Colourful Chemistry of Artificial Dyes
+[07]: The Periodic Table in Three Dimensions
+[08]: Developing a Modern Periodic Table: From Spirals to the Stars
+[09]: Science Teaching
+[10]: Drawing Chemistry
+[11]: Victorian Christmas Chemistry
+[12]: Plastics and Modern Materials
+[13]: Industrial Chemistry
+[14]: Experimental Chemistry
+
+[05_Mathematics]
+[00]: Where in the World? The Mathematics of Navigation
+[01]: Mathematics and Aviation: The Handley Page 'Gugnunc'
+[02]: Modelling the Oceans: Using Maths to Predict Floods
+[03]: Florence Nightingale: The Pioneer Statistician
+[04]: How does the Economy Work?
+[05]: A Single Surface Model, made in Bedford 1995
+[06]: Second Order Surface Geometric Models, made in Tubingen 1901
+[07]: Desvignes Spirograph Drawings, made in Vienna 1845
+[08]: 58 Stellations of Icosahedrons, made in London 1986
+[09]: 5 Exchequer Tally Sticks, made in London 1440
+[10]: 'z = 3a(x2 - y2) - (x3 + y3)', made in London 1900
+[11]: Incan Quipu Counter Replica, made in New York 1974
+[12]: Mathematics Gifts
+
+[06_Astronomy]
+[00]: The Space Race to the Moon
+[01]: The Technology it took to get to the Moon
+[02]: From the Moon to your Living Room: The Apollo 11 Broadcast
+[03]: Seeing Earth from Space: Flip-Books to Google Earth
+[04]: Telstar, Intelsat and the First Global Satellite Broadcast
+[05]: GPS Navigation: From the Gulf War to Civvy Street
+[06]: How does Space Weather affect the Earth?
+[07]: Exploring Space
+[08]: Islamic Astrolabe 901
+[09]: European Astrolabe 1607
+[10]: Japanese Astrolabe 1677
+[11]: Planetary Model 1813
+[12]: Lantern Slide 1838
+[13]: The Great Rosse Mirror 1845
+[14]: Mars Globe 1896
+[15]: Eclipse Expedition 1919
+[16]: Lovell Telescope 1961
+[17]: Cambridge Scintillation Array 1967
+[18]: DRIFT-1 Dark Matter Detector 2001
+[19]: Prototype Beam Splitter 2008
+[20]: Space Technology
+[21]: The Spectroscope
+[22]: Halley's Comet: Collisions with History
+[23]: The Orrery
+[24]: Shop Space
+
+[07_Communication]
+[00]: The Exchange
+[01]: Ahoy! Alexander Graham Bell and the First Telephone Call
+[02]: 2LO Calling: The Birth of British Public Radio
+[03]: Titanic, Marconi and the Wireless Telegraph
+[04]: Goodbye to the Hello Girls: Automating the Telephone Exchange
+[05]: Television Reigns: Broadcasting Queen Elizabeth's Coronation
+[06]: How did the UK Switch to Digital Television?
+[07]: Telephones Save Lives: The History of the Samaritans
+[08]: The Invention of Mobile Phones
+[09]: Connecting Cameroon: Mobile Phones and Call Boxes
+[10]: How Perseverance laid the First Transatlantic Telegraph Cable
+[11]: Robeson Sings: The First Transatlantic Telephone Cable
+[12]: Standardising Time: Railways and the Electric Telegraph
+[13]: Boom and Bust: Telegraphy and the Wall Street Crash
+
+[08_Women_in_Science]
+[00]: Wonderlab Shop
+[01]: Women in Maths
+[02]: Women in Physics
+[03]: Women in Computing
+[04]: Women in Engineering
+[05]: Menstruation and Modern Materials
+
+[09_Computing]
+[00]: A Computer in your Pocket: The Rise of Smartphones
+[01]: Lovelace, Turing and the Invention of Computers
+[02]: Meet Leo, the World's First Business Computer
+[03]: From Arpanet to the Internet
+[04]: The World Wide Web: A Global Information Space
+[05]: From Lisa to Windows: The Story of Home Computers
+[06]: Charles Babbage's Difference Engines and the Science Museum
+
+[10_Art_and_Science]
+[00]: Human Machine
+[01]: Meaningful Matter
+[02]: Sociable Science
+[03]: Troubled Horizons
+[04]: Art and COVID-19
+[05]: Anatomy: Art and Science
+[06]: Art and Science on the Journal
+[07]: Art and Science on the Blog
+[08]: 'Santa Medicina' by Eleanor Crook
+[09]: 'Self-Conscious Gene' by Marc Quinn
+[10]: 'Bloom' by Studio Roso
+[11]: 'For Science' by Jenny Holzer
+[12]: 'Coalbrookdale by Night' by Philippe Jacques de Loutherbourg
+[13]: 'Iron Baby' by Antony Gormley
+[14]: 'Anamorphosis' by Winton Gallery
+[15]: 'The Munition Girls' by Alexander Stanhope Forbes
+[16]: 'Living Made Easy' by Thomas McLean
+[17]: 'The First Briton in Space' by Kyle Dawney
+[18]: 'Materials House' by Thomas Heatherwick
+[19]: 'Painting of Sunspot' by James Nasmyth
+[20]: 'Surgery Sketchbook' by Barbara Hepworth
+[21]: Science Fictions: Journey through Objects with Bedwyr Williams
+[22]: Illuminating Objects Display
+[23]: We Make London
+
+(https://www.sciencemuseum.org.uk/objects-and-stories)
