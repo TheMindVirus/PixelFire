@@ -14,8 +14,8 @@ var image = null;
 var images =  19;
 var selected = 0;
 var play = function(event, element) { element.remove(); video = document.getElementById("video"); image = document.getElementById("image"); video.onended = next; title = document.title; load(); }
-var load = function(event) { image.style.visibility = "hidden"; video.play(); document.title = title; selected = parseInt(Math.random() * images); /* console.log(selected); */ label = document.getElementById("image-" + selected); image.src = label.src; }
-var next = function(event) { image.style.visibility = "visible"; title = document.title; document.title = label.getAttribute("label"); setTimeout(load, 5000); }
+var load = function(event) { image.style.visibility = "hidden"; video.play(); document.title = title; selected = parseInt(Math.random() * images); /* console.log(selected); */ label = document.getElementById("image-" + selected); if (label != null) { image.src = label.src; } }
+var next = function(event) { image.style.visibility = "visible"; title = document.title; if (label != null) { document.title = label.getAttribute("label"); } setTimeout(load, 5000); }
 </script>
 <video id="video" src="intro.mp4"></video>
 <img id="image"></img>
