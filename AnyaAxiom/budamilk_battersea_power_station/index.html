@@ -1,0 +1,41 @@
+<title>Budamilk</title>
+<link rel="icon" href="favicon.ico"></link>
+<style>
+ * { box-sizing: border-box; margin: auto; font-family: sans-serif; overflow: hidden; border: none; user-select: none; }
+ #play { background: yellow; position: fixed; top: 0; left: 0; width: 100%; height: 100%; color: black; font-size: 100pt; }
+ #video { background: black; position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
+ #image { background: none;  position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; }
+</style>
+<script>
+var title = null;
+var video = null;
+var label = null;
+var image = null;
+var images =  19;
+var selected = 0;
+var play = function(event, element) { element.remove(); video = document.getElementById("video"); image = document.getElementById("image"); video.onended = next; title = document.title; load(); }
+var load = function(event) { image.style.visibility = "hidden"; video.play(); document.title = title; selected = parseInt(Math.random() * images); /* console.log(selected); */ label = document.getElementById("image-" + selected); image.src = label.src; }
+var next = function(event) { image.style.visibility = "visible"; title = document.title; document.title = label.getAttribute("label"); setTimeout(load, 5000); }
+</script>
+<video id="video" src="intro.mp4"></video>
+<img id="image"></img>
+<button id="play" onclick="play(event, this)">Play</button>
+<img id="image-0"  hidden src="img/A00.png" label="A"></img>
+<img id="image-1"  hidden src="img/B01.png" label="B"></img>
+<img id="image-2"  hidden src="img/C02.png" label="C"></img>
+<img id="image-3"  hidden src="img/D03.png" label="D"></img>
+<img id="image-4"  hidden src="img/E04.png" label="E"></img>
+<img id="image-5"  hidden src="img/F05.png" label="F"></img>
+<img id="image-6"  hidden src="img/G06.png" label="G"></img>
+<img id="image-7"  hidden src="img/H07.png" label="H"></img>
+<img id="image-8"  hidden src="img/I08.png" label="I"></img>
+<img id="image-9"  hidden src="img/J09.png" label="J"></img>
+<img id="image-10" hidden src="img/K10.png" label="K"></img>
+<img id="image-11" hidden src="img/L11.png" label="L"></img>
+<img id="image-12" hidden src="img/M12.png" label="M"></img>
+<img id="image-13" hidden src="img/N13.png" label="N"></img>
+<img id="image-14" hidden src="img/O14.png" label="O"></img>
+<img id="image-15" hidden src="img/P15.png" label="P"></img>
+<img id="image-16" hidden src="img/Q16.png" label="Q"></img>
+<img id="image-17" hidden src="img/R17.png" label="R"></img>
+<img id="image-18" hidden src="img/S18.png" label="S"></img>

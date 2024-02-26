@@ -1,0 +1,188 @@
+[Budamilk Media Modulo]
+[BatterseaPowerStation]
+
+[00]: Selection A
+[000]: A.P.C.
+[001]: Abercrombie & Fitch
+[002]: Ace & Tate
+[003]: Adidas
+[004]: Aesop
+[005]: Apple Battersea
+[006]: Arc'Teryx
+[007]: Arcade Food Hall & Bar
+
+[01]: Selection B
+[008]: Art'otel London Battersea Power Station
+[009]: Bao Noodle Shop
+[010]: Battersea Bookshop
+[011]: Battersea Brewery
+[012]: The Battersea General Store
+[013]: Bimba Y Lola
+[014]: Birdies
+[015]: Black Sheep Coffee
+
+[02]: Selection C
+[016]: BMF Urban Battersea
+[017]: Boom Cycle
+[018]: Boots Beauty Store
+[019]: Borough Kitchen
+[020]: Boss
+[021]: Bounce
+[022]: Bread Street Kitchen & Bar
+[023]: Breitling
+
+[03]: Selection D
+[024]: Calvin Klein
+[025]: Chanel
+[026]: The Cinema in the Arches
+[027]: The Cinema in the Power Station
+[028]: Cinnamon Kitchen
+[029]: Clarendon Fine Art
+[030]: Clean Kitchen Club
+[031]: Control Room A
+
+[04]: Selection E
+[032]: Control Room B
+[033]: Crosstown
+[034]: CSD
+[035]: Curated Makers
+[036]: David Clulow
+[037]: Dishoom
+[038]: DNA VR
+[039]: El Pastor - Coming Soon
+
+[05]: Selection F
+[040]: The Engine Room
+[041]: The Feel Good Bakery
+[042]: Fiume
+[043]: Gant
+[044]: Genesis
+[045]: Gordon Ramsay Street Pizza
+[046]: Grind
+[047]: Hackett
+
+[06]: Selection G
+[048]: Itsu
+[049]: IWC Schaffhausen
+[050]: Jigsaw
+[051]: Jo Malone London
+[052]: Joe & The Juice
+[053]: Joia Restaurant
+[054]: Joia Bar
+[055]: Joia Rooftop Bar
+
+[07]: Selection H
+[056]: Jott
+[057]: Kiehl's
+[058]: The Kooples
+[059]: Kova Patisserie
+[060]: L'Occitane
+[061]: Lacoste
+[062]: Le Bab
+[063]: Le Labo
+
+[08]: Selection I
+[064]: Lego
+[065]: Leon
+[066]: Levi's
+[067]: Lift 109
+[068]: Lift 109 Shop
+[069]: Lululemon
+[070]: MAC Cosmetics
+[071]: Malin+Goetz
+
+[09]: Selection J
+[072]: Mango
+[073]: Manna
+[074]: Marks & Spencer Foodhall
+[075]: Massimo Dutti
+[076]: ME+EM
+[077]: Megan's at the Power Station
+[078]: Moyses Stevens
+[079]: Mulberry
+
+[10]: Selection K
+[080]: Nando's
+[081]: Nike
+[082]: No. 29 Power Station West
+[083]: Noci
+[084]: The North Face
+[085]: Office Shoes
+[086]: Official Guided Tours
+[087]: Omega
+
+[11]: Selection L
+[088]: Oseyo
+[089]: Over Under Coffee
+[090]: Paris Baguette
+[091]: Paul Edmonds London
+[092]: Penhaligon's
+[093]: Petit Pli
+[094]: Pinko
+[095]: Poke House
+
+[12]: Selection M
+[096]: Polestar
+[097]: Postmark
+[098]: Power of Place Exhibition
+[099]: Pret a Manger
+[100]: Ralph Lauren
+[101]: Ray-Ban
+[102]: Reformation
+[103]: Reiss
+
+[13]: Selection N
+[104]: Rituals
+[105]: Roarsome
+[106]: Rolex at Watches of Switzerland
+[107]: Roti King
+[108]: Rox
+[109]: Royal Selangor
+[110]: Scamp & Dude
+[111]: Searcy's Champagne Bar
+
+[14]: Selection O
+[112]: Skechers
+[113]: Sky
+[114]: So.Shell - Coming Soon
+[115]: Solis
+[116]: The Spa at Art'otel
+[117]: Space NK
+[118]: Starbucks
+[119]: Superdry
+
+[15]: Selection P
+[120]: Swatch
+[121]: Sweaty Betty
+[122]: Tag Heuer
+[123]: Tapas Brindisa Battersea
+[124]: Tashas
+[125]: The Body Shop
+[126]: Theory
+[127]: Third Space - Coming Soon
+
+[16]: Selection Q
+[128]: Tommy Hilfiger
+[129]: Tonkotsu
+[130]: Tozi Counter
+[131]: Tozi Grand Cafe
+[132]: Tudor
+[133]: The Turbine Theatre
+[134]: Under Armour
+[135]: Uniqlo
+
+[17]: Selection R
+[136]: Vagabond Wines
+[137]: Venchi
+[138]: Wagamama
+[139]: Watches of Switzerland
+[140]: Where the Pancakes are
+[141]: White & Co.
+[142]: Wright Brothers
+[143]: Zadig & Voltaire
+
+[18]: Selection S
+[144]: Zara
+[145]: Zara Home
+
+(https://batterseapowerstation.co.uk/retailers/)
