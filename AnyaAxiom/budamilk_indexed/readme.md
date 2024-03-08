@@ -1,0 +1,1 @@
+![image](/AnyaAxiom/budamilk_indexed/image.png)

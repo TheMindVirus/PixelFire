@@ -1,0 +1,21 @@
+<title>Budamilk</title>
+<link rel="icon" href="favicon.png"></link>
+<style>
+ * { box-sizing: border-box; margin: auto; font-family: sans-serif; overflow: hidden; border: none; user-select: none; }
+ [stage] { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
+ #button { background: yellow; color: black; font-size: 100pt; }
+ #iframe { background: black; }
+</style>
+<script>
+var title = "";
+var segment = 0;
+var segments = 12;
+var segreturn = 0;
+var timeout = 7000;
+var play = function(event, element) { element.remove(); iframe = document.getElementById("iframe"); title = document.title; next(); }
+var head = function(segid) { if (segment < (segments - 1)) { document.title = segment; return true; } else { document.title = title; return false; } }
+var link = function(segid) { segreturn = 1 - segreturn; if (segreturn) { segment = (segment + 1) % segments; if (!head()) { segreturn = 0; var tmp = segment; segment = 0; return tmp; } return 0; } else { return segid; } }
+var next = function(event) { iframe.src = "img/" + link(segment) + "/index.html"; setTimeout(next, timeout); }
+</script>
+<iframe stage id="iframe"></iframe>
+<button stage id="button" onclick="play(event, this)">Play</button>
