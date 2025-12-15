@@ -1,6 +1,10 @@
 # PixelFire
 3D Video Codec for playing back pre-rendered Voxel Animations in Unity with Volumetric Shaders (WIP)
 
+## Newsflash
+Now Tested on Mac OS X with Unity 2020 lit in the Universal Render Pipeline
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/mac/Pixelfire.png)
+
 ## Format
 ```
 #BEGIN_METADATA //Comment
@@ -16,8 +20,8 @@ X, Y, Z, R, G, B, A //Comment
 X, Y, Z, R, G, B, A //Comment
 ```
 
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot.png)
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot1.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/mac/screenshot.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/mac/screenshot1.png)
 
 ## Examples
 #### General
@@ -67,8 +71,8 @@ data = \
 >>> print(data)
 ```
 
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot2.png)
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot3.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/mac/screenshot2.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/mac/screenshot3.png)
 
 ## Issues
 ```
@@ -105,5 +109,5 @@ data = \
 ### *Not many experiments start off with the words, "I've just set fire to a turd, now to record it."*
 </br>
 
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot4.png)
-![screenshot](https://github.com/TheMindVirus/PixelFire/blob/main/screenshot5.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/mac/screenshot4.png)
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/mac/screenshot5.png)
