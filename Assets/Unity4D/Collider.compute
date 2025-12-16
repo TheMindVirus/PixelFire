@@ -1,0 +1,73 @@
+#pragma kernel main
+
+int size;
+float4 rotation;
+float4 morph;
+RWStructuredBuffer<float3> verts;
+
+float4 Rotate4D(float4 v, float3 r, float3 m)
+{
+    float4 o = float4(0.0, 0.0, 0.0, 0.0);
+
+    o.x = v.x;
+    o.y = (v.y * cos(r.x)) + (v.z * -sin(r.x));
+    o.z = (v.y * sin(r.x)) + (v.z * cos(r.x));
+    o.w = v.w;
+
+    v = o;
+    o = float4(0.0, 0.0, 0.0, 0.0);
+
+    o.x = (v.x * cos(r.y)) + (v.z * -sin(r.y));
+    o.y = v.y;
+    o.z = (v.x * sin(r.y)) + (v.z * cos(r.y));
+    o.w = v.w;
+
+    v = o;
+    o = float4(0.0, 0.0, 0.0, 0.0);
+
+    o.x = (v.x * cos(r.z)) + (v.y * -sin(r.z));
+    o.y = (v.x * sin(r.z)) + (v.y * cos(r.z));
+    o.z = v.z;
+    o.w = v.w;
+
+    v = o;
+    o = float4(0.0, 0.0, 0.0, 0.0);
+
+    o.x = (v.x * cos(m.x)) + (v.w * -sin(m.x));
+    o.y = v.y;
+    o.z = v.z;
+    o.w = (v.x * sin(m.x)) + (v.w * cos(m.x));
+
+    v = o;
+    o = float4(0.0, 0.0, 0.0, 0.0);
+
+    o.x = v.x;
+    o.y = (v.y * cos(m.y)) + (v.w * -sin(m.y));
+    o.z = v.z;
+    o.w = (v.y * sin(m.y)) + (v.w * cos(m.y));
+
+    v = o;
+    o = float4(0.0, 0.0, 0.0, 0.0);
+
+    o.x = v.x;
+    o.y = v.y;
+    o.z = (v.z * cos(m.z)) + (v.w * -sin(m.z));
+    o.w = (v.z * sin(m.z)) + (v.w * cos(m.z));
+
+    v = o;
+    o = float4(0.0, 0.0, 0.0, 0.0);
+
+    return v;
+}
+
+[numthreads(1,1,1)]
+void main(uint3 id : SV_DispatchThreadID)
+{
+    for (int i = 0; i < size; ++i)
+    {
+        float4 vert = float4(verts[i].xyz, 1.0);
+        vert = Rotate4D(vert, rotation.xyz, morph.xyz);
+        vert.xyz *= vert.w;
+        verts[i] = vert.xyz;
+    }
+}
