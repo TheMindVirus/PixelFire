@@ -1,0 +1,122 @@
+#pragma kernel main
+
+sampler3D tex;
+RWStructuredBuffer<float3> verts;
+RWStructuredBuffer<int> tris;
+
+[numthreads(8,8,8)]
+void main(uint3 id : SV_DispatchThreadID)
+{
+    float eighth = 1.0 / 8.0;
+    float sixteenth = eighth / 2.0;
+    float3 texcoord = float3(id.x * eighth + sixteenth, id.y * eighth + sixteenth, id.z * eighth + sixteenth);
+    float4 voxel = tex3Dlod(tex, float4(texcoord.xyz, 0.0));
+    int result = 0;
+    float e = eighth;
+    float3 o = e * id;
+
+    if (voxel.a > 0.0) { result = 1; }
+    if ((id.x > 7) || (id.y > 7) || (id.z > 7)) { return; }
+
+    int z = 12 * 3 * 8 * 8 * id.z;
+    int y = 12 * 3 * 8 * id.y;
+    int x = 12 * 3 * id.x;
+    int t = z + y + x;
+    int i = 0;
+    //1
+    verts[t + i + 0] = float3(0, 0, 0) + o - 0.5;
+    verts[t + i + 1] = float3(e, 0, e) + o - 0.5;
+    verts[t + i + 2] = float3(0, 0, e) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //2
+    verts[t + i + 0] = float3(0, 0, 0) + o - 0.5;
+    verts[t + i + 1] = float3(e, 0, 0) + o - 0.5;
+    verts[t + i + 2] = float3(e, 0, e) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //3
+    verts[t + i + 0] = float3(0, e, 0) + o - 0.5;
+    verts[t + i + 1] = float3(0, e, e) + o - 0.5;
+    verts[t + i + 2] = float3(e, e, e) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //4
+    verts[t + i + 0] = float3(0, e, 0) + o - 0.5;
+    verts[t + i + 1] = float3(e, e, e) + o - 0.5;
+    verts[t + i + 2] = float3(e, e, 0) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //5
+    verts[t + i + 0] = float3(0, 0, 0) + o - 0.5;
+    verts[t + i + 1] = float3(0, 0, e) + o - 0.5;
+    verts[t + i + 2] = float3(0, e, e) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //6
+    verts[t + i + 0] = float3(0, 0, 0) + o - 0.5;
+    verts[t + i + 1] = float3(0, e, e) + o - 0.5;
+    verts[t + i + 2] = float3(0, e, 0) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //7
+    verts[t + i + 0] = float3(0, 0, 0) + o - 0.5;
+    verts[t + i + 1] = float3(e, e, 0) + o - 0.5;
+    verts[t + i + 2] = float3(e, 0, 0) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //8
+    verts[t + i + 0] = float3(0, 0, 0) + o - 0.5;
+    verts[t + i + 1] = float3(0, e, 0) + o - 0.5;
+    verts[t + i + 2] = float3(e, e, 0) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //9
+    verts[t + i + 0] = float3(e, 0, 0) + o - 0.5;
+    verts[t + i + 1] = float3(e, e, 0) + o - 0.5;
+    verts[t + i + 2] = float3(e, 0, e) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //10
+    verts[t + i + 0] = float3(e, e, 0) + o - 0.5;
+    verts[t + i + 1] = float3(e, e, e) + o - 0.5;
+    verts[t + i + 2] = float3(e, 0, e) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //11
+    verts[t + i + 0] = float3(0, e, e) + o - 0.5;
+    verts[t + i + 1] = float3(0, 0, e) + o - 0.5;
+    verts[t + i + 2] = float3(e, 0, e) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+    //12
+    verts[t + i + 0] = float3(0, e, e) + o - 0.5;
+    verts[t + i + 1] = float3(e, 0, e) + o - 0.5;
+    verts[t + i + 2] = float3(e, e, e) + o - 0.5;
+    tris[t + i + 0] = result * (t + i + 0);
+    tris[t + i + 1] = result * (t + i + 1);
+    tris[t + i + 2] = result * (t + i + 2);
+    i += 3;
+}
