@@ -5,6 +5,12 @@
 Now Tested on Mac OS X with Unity 2020 lit in the Universal Render Pipeline
 https://github.com/TheMindVirus/PixelFire/blob/13d8f08a93c3630b4b9f6b5278e0b1ca452a412b/PixelFire.shader#L1
 ![screenshot](https://github.com/TheMindVirus/PixelFire/blob/mac/Pixelfire.png)
+
+## Collider
+Optional Collider Scripts make use of Compute Shaders in the Built-in Render Pipeline
+https://github.com/TheMindVirus/PixelFire/blob/416a34f87bab21fd090390ae781c12113e31e762/Assets/MeshShader/Collider.compute#L1
+![screenshot](https://github.com/TheMindVirus/PixelFire/blob/mac/Collider.png)
+
 ## Format
 ```
 #BEGIN_METADATA //Comment
